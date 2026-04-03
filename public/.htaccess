@@ -1,0 +1,11 @@
+# ----------------------------------------------------------------------
+# .htaccess
+# ----------------------------------------------------------------------
+# File này dùng cho Apache để chuyển mọi request không trỏ tới file/thư
+# mục thật về public/index.php. Nhờ đó router MVC có thể xử lý URL đẹp.
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
