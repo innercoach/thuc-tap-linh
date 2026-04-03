@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Environment
+.env
+
+# Logs
+*.log
+
+# Runtime
+/storage/logs/*
+!/storage/logs/.gitkeep
+/storage/cache/*
+!/storage/cache/.gitkeep
+
+# Editor
+.idea/
+.vscode/
+
+# PHP built-in server temp
+*.pid

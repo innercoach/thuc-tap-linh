@@ -2,6 +2,16 @@
 
 Đây là dự án Landing Page tuyển sinh được xây dựng bằng PHP thuần theo mô hình Custom MVC, sử dụng MySQL để lưu dữ liệu đăng ký và PHP Session để quản lý đăng nhập admin.
 
+## Phiên bản
+
+- `v1.0.0`
+
+Xem thêm:
+
+- [`CHANGELOG.md`](./CHANGELOG.md)
+- [`docs/v1-scope.md`](./docs/v1-scope.md)
+- [`docs/release-checklist.md`](./docs/release-checklist.md)
+
 ## 1. Yêu cầu hệ thống, môi trường
 
 Để chạy dự án trên một môi trường mới, máy cần có:
@@ -258,3 +268,9 @@ Xem thêm trong thư mục:
 - `docs/database-design.md`
 - `docs/request-flow.md`
 - `docs/deployment-local.md`
+- `docs/usecase-overview.md`
+- `docs/usecase-details.md`
+- `docs/database-uml.md`
+- `docs/deployment-diagram.md`
+- `docs/v1-scope.md`
+- `docs/release-checklist.md`
